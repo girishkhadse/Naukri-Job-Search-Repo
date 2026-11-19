@@ -1,0 +1,17 @@
+{
+  "name": "naukri-playwright",
+  "version": "1.0.0",
+  "description": "Playwright (JavaScript) automation for Naukri profile and job search",
+  "scripts": {
+    "install:browsers": "npx playwright install chromium",
+    "save-auth": "npx playwright codegen --save-storage=.auth/user.json https://www.naukri.com/nlogin/login",
+    "test": "npx playwright test",
+    "test:search": "npx playwright test tests/jobSearch.spec.js",
+    "test:profile": "npx playwright test tests/profile.spec.js",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "dotenv": "^16.4.5"
+  }
+}
