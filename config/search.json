@@ -1,0 +1,8 @@
+{
+  "searches": [
+    { "keyword": "playwright automation", "location": "mumbai", "experience": 3 },
+    { "keyword": "sdet", "location": "pune", "experience": 3 }
+  ],
+  "maxPages": 2,
+  "jobAgeDays": 5
+}
